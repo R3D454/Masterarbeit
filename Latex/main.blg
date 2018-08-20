@@ -1,0 +1,22 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+The style file: plain.bst
+A level-1 auxiliary file: einleitung.aux
+A level-1 auxiliary file: hauptteil.aux
+Illegal, another \bibstyle command---line 51 of file main.aux
+ : \bibstyle
+ :          {alphadin}
+I'm skipping whatever remains of this command
+Database file #1: literatur.bib
+Warning--entry type for "Krau." isn't style-file defined
+--line 26 of file literatur.bib
+Warning--entry type for "Prof.Dr.AlfredIrber." isn't style-file defined
+--line 39 of file literatur.bib
+Warning--entry type for "Prof.Dr.Ing.WolfgangSchroderPreikschat." isn't style-file defined
+--line 52 of file literatur.bib
+Warning--entry type for "SebastianMeyer." isn't style-file defined
+--line 65 of file literatur.bib
+Warning--entry type for "SISOStandardsActivityCommitteeoftheIEEEComputerSociety." isn't style-file defined
+--line 88 of file literatur.bib
+Warning--empty publisher in HelmutErlenkotter.
+Warning--empty year in HelmutErlenkotter.
+(There was 1 error message)
