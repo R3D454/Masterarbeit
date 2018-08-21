@@ -9,6 +9,10 @@
 \addvspace {10\p@ }
 \contentsline {lstlisting}{\numberline {3.1}\glqq get\grqq {} und \glqq set\grqq {} Methode}{25}{lstlisting.3.1}
 \contentsline {lstlisting}{\numberline {3.2}Konstruktor \glqq warShip\grqq {} Klasse}{26}{lstlisting.3.2}
+\contentsline {lstlisting}{\numberline {3.3}Ausschnitt DIS\_enum.h}{27}{lstlisting.3.3}
+\contentsline {lstlisting}{\numberline {3.4}Ausschnitt DIS\_enum.cpp}{28}{lstlisting.3.4}
+\contentsline {lstlisting}{\numberline {3.5}Funktion \glqq getDISEntityType()\grqq {} Teil 1}{29}{lstlisting.3.5}
+\contentsline {lstlisting}{\numberline {3.6}Funktion \glqq getDISEntityType()\grqq {} Teil 2}{30}{lstlisting.3.6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

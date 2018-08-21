@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.2)  21 AUG 2018 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.2)  21 AUG 2018 21:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -1137,7 +1137,7 @@ although it is yet undefined on input line 21.
 Package acronym Info: Label `acro:ide' newly defined as it shall be overridden
 although it is yet undefined on input line 21.
  [3]
-<bilder/pdfvorlagen/eineKlasse.pdf, id=245, 145.54375pt x 152.57pt>
+<bilder/pdfvorlagen/eineKlasse.pdf, id=253, 145.54375pt x 152.57pt>
 File: bilder/pdfvorlagen/eineKlasse.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/eineKlasse.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/eineKlasse.pdf  used on input line 
@@ -1162,13 +1162,13 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 37.
  (F:\Programme\Miktex\tex\latex\base\t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [5]
-<bilder/pdfvorlagen/test2.pdf, id=313, 164.615pt x 176.66pt>
+<bilder/pdfvorlagen/test2.pdf, id=321, 164.615pt x 176.66pt>
 File: bilder/pdfvorlagen/test2.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/test2.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/test2.pdf  used on input line 83.
 (pdftex.def)             Requested size: 197.537pt x 211.99092pt.
  [6]
-<bilder/pdfvorlagen/static.pdf, id=344, 164.615pt x 200.75pt>
+<bilder/pdfvorlagen/static.pdf, id=352, 164.615pt x 200.75pt>
 File: bilder/pdfvorlagen/static.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/static.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/static.pdf  used on input line 92.
@@ -1180,7 +1180,7 @@ Package pdftex.def Info: bilder/pdfvorlagen/static.pdf  used on input line 92.
                                                   \fi \fi 
 l.95  \end{figure}
                    <./bilder/pdfvorlagen/test2.pdf>]
-<bilder/pdfvorlagen/vererbung.pdf, id=387, 166.6225pt x 407.5225pt>
+<bilder/pdfvorlagen/vererbung.pdf, id=395, 166.6225pt x 407.5225pt>
 File: bilder/pdfvorlagen/vererbung.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/vererbung.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/vererbung.pdf  used on input line 1
@@ -1240,7 +1240,7 @@ l.356 \chapter
 chapter 3.
 Package acronym Info: Label `acro:hla' newly defined as it shall be overridden
 although it is yet undefined on input line 360.
-<bilder/pdfvorlagen/ansatz2.pdf, id=624, 434.62375pt x 212.795pt>
+<bilder/pdfvorlagen/ansatz2.pdf, id=632, 434.62375pt x 212.795pt>
 File: bilder/pdfvorlagen/ansatz2.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/ansatz2.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/ansatz2.pdf  used on input line 369
@@ -1249,7 +1249,7 @@ Package pdftex.def Info: bilder/pdfvorlagen/ansatz2.pdf  used on input line 369
 [19
 
 ]
-<bilder/pdfvorlagen/ansatz1.pdf, id=637, 332.24126pt x 345.29pt>
+<bilder/pdfvorlagen/ansatz1.pdf, id=645, 332.24126pt x 345.29pt>
 File: bilder/pdfvorlagen/ansatz1.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/ansatz1.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/ansatz1.pdf  used on input line 377
@@ -1262,7 +1262,7 @@ Package pdftex.def Info: bilder/pdfvorlagen/ansatz1.pdf  used on input line 377
                                                   \fi \fi 
 l.380 \end{figure}
                    <./bilder/pdfvorlagen/ansatz2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 381--385
+Underfull \hbox (badness 10000) in paragraph at lines 381--384
 
  []
 
@@ -1271,43 +1271,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 381--385
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.385 
+l.384 
        <./bilder/pdfvorlagen/ansatz1.pdf>]
 Package acronym Info: Label `acro:vls' newly defined as it shall be overridden
-although it is yet undefined on input line 386.
+although it is yet undefined on input line 385.
  [22] [23] [24] [25] [26] [27]
-[28]
+[28] [29] [30] [31] [32]
 chapter 4.
-[29
+[33
 
 ]
 chapter 5.
-<bilder/pdfvorlagen/ansatz3.pdf, id=789, 1145.27875pt x 465.74pt>
+<bilder/pdfvorlagen/ansatz3.pdf, id=902, 1145.27875pt x 465.74pt>
 File: bilder/pdfvorlagen/ansatz3.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/ansatz3.pdf>
-Package pdftex.def Info: bilder/pdfvorlagen/ansatz3.pdf  used on input line 485
+Package pdftex.def Info: bilder/pdfvorlagen/ansatz3.pdf  used on input line 587
 .
 (pdftex.def)             Requested size: 635.49744pt x 476.6404pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<bilder/pdfvorlagen/equip.pdf, id=790, 1145.27875pt x 604.2575pt>
+<bilder/pdfvorlagen/equip.pdf, id=903, 1145.27875pt x 604.2575pt>
 File: bilder/pdfvorlagen/equip.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/equip.pdf>
-Package pdftex.def Info: bilder/pdfvorlagen/equip.pdf  used on input line 494.
+Package pdftex.def Info: bilder/pdfvorlagen/equip.pdf  used on input line 596.
 (pdftex.def)             Requested size: 635.49744pt x 476.62057pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [30
+) [34
 
-] [31pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+] [35pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.104 \include{hauptteil}
-                          <./bilder/pdfvorlagen/ansatz3.pdf>] [32pdfTeX warning
+                          <./bilder/pdfvorlagen/ansatz3.pdf>] [36pdfTeX warning
  (ext4): destination with the same identifier (name{figure.5.2}) has been alrea
 dy used, duplicate ignored
 
@@ -1329,7 +1329,7 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
-[33
+[37
 
 
 ]
@@ -1342,10 +1342,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 19678 strings out of 492973
- 317934 string characters out of 3139481
- 591849 words of memory out of 3000000
- 22942 multiletter control sequences out of 15000+200000
+ 19826 strings out of 492973
+ 320039 string characters out of 3139481
+ 590849 words of memory out of 3000000
+ 23001 multiletter control sequences out of 15000+200000
  16135 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,11n,97p,9085b,1920s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1362,9 +1362,9 @@ pk> <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ecsx1728.pk> <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
 \ec\dpi600\ecbx1200.pk> <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
 r\jknappen\ec\dpi600\ecbx1440.pk>
-Output written on main.pdf (40 pages, 733830 bytes).
+Output written on main.pdf (44 pages, 760239 bytes).
 PDF statistics:
- 1424 PDF objects out of 1440 (max. 8388607)
- 239 named destinations out of 1000 (max. 500000)
+ 1564 PDF objects out of 1728 (max. 8388607)
+ 328 named destinations out of 1000 (max. 500000)
  214 words of extra memory for PDF output out of 10000 (max. 10000000)
 
