@@ -395,6 +395,61 @@ Vergleicht man die Ansetze mit einander, fällt auf, dass die Anzahl der Klassen
 Bei ersten Ansatz kann man eine \ac{espdu} mit den entsprechenden Werten erstellen ohne zu entscheiden, um was es sich bei dem Objekt handeln soll. Bei zweiten Ansatz, muss man zwischen festen und beweglichen Objekten und wenn es sich um ein bewegliches Objekt handeln soll, ob es ein militärischen oder ziviles Objekt handelt, entscheiden. Beim dritten Ansatz kann man sich nur für ein Objekt entscheiden, welches auch als Klasse abgebildet ist. Benötigt man ein Objekt einer nicht vorhandenen Klasse, muss man den Ansatz um die benötigte Klasse erweitern. Diese Einschränkung bei der Auswahl ermöglicht es jedoch immer die korrekten Methoden auf die Objekte anzuwenden. Der erhöhte Implementierungsaufwand ermöglicht jedoch eine sichere und korrekte Benutzung. 
 Abschließend stellt sich der dritte Ansatz als der beste heraus, da bei der Implementierung der Methoden nicht auf einen unzulässigen Gebrauch geprüft werden muss, da die Methode immer nur von dem Objekt benutzt werden kann, für den sie bestimmt ist. Für die Implementierung wurde daher dieser Ansatz genutzt, da zum Einen die Implementierung der Methoden die einfachere ist und weil sich dieser Ansatz, auf Grund seiner Struktur,  potentiell am  besten erweitern lässt.  
 
+\section{Implementierung}\label{implement}
+Die Klassenhierarchie wurde mithilfe eines \ac{uml} Diagramms entworfen, welches mit der Papyrus Erweiterung der Eclipse \ac{ide} erstellt wurde. Anhand dieses Diagramms wurde eine C++ Projekt generiert, das anschließend vervollständigt wurde. Dabei wurden weitere Methoden und Attribute hinzugefügt, die im \ac{uml} Diagramm nicht aufgeführt sind. Bei der Implementierung traten einige Probleme auf. Die Größten werden im folgenden Abschnitt aufgezeigt und es wird die gefundene Lösung erklärt.\\
+Die erste Aufgabe war es alle \glqq get\grqq{} und \glqq set\grqq{} Methoden zu implementieren.  
+Im Listing \ref{getset} ist eine einfache Implementierung dieser Methoden zu sehen. Hier wird das Attribut \glqq Type\grqq{}, welches \glqq private\grqq{} ist, gesetzt und abgerufen. Die unten gezeigte Implementierung ist Beispielhaft für die anderen Methoden. 
+\begin{lstlisting}[caption =\glqq get\grqq{} und \glqq set\grqq{} Methode ,label=getset]
+void driven::setType(std::string /*in*/type) {
+Type = type;
+}
+std::string driven::getType() {
+return Type;
+}
+\end{lstlisting}
+
+Das nächste Problem war es die Konstruktoren zu erstellen. Hierbei galt es zunächst diese so einfach wie möglich zu halten. Jedoch wurde schnell sichtbar, dass die eingaben überprüft werden müssen. Der Grund dafür entstand aus der Forderung, dass ein Objekt in das \ac{dis} Standard übersetzt werden soll. Da \ac{dis} über eine Enumeration verfügt, in der die Verschiedenen Arten einer Entity kodiert sind, muss das Programm erkennen, wie er das vorhandene Objekt übersetzen kann, sodass es zu einer der Objekte passt, die in der Enumeration kodiert sind. Um dies zu erfüllen wurde entschieden, dass es am besten wäre, diese Prüfung direkt im Konstruktor vorzunehmen und diese als String zu speichern, um die Leserlichkeit beizubehalten.   
+
+\begin{lstlisting}[caption =Konstruktor  \glqq warShip\grqq{} Klasse ,label=warshipclass]
+warShip::warShip(std::string /*in*/Name,
+std::string /*in*/Type, std::string/*in*/ Country) {
+object::setName(Name);
+object::setCountry(Country);
+object::setKind("Platform");
+object::SetDomain("Surface");
+object::setPosition(0,0,0);
+object::incrementCounter();
+driven::setType(Type);
+equipment = NULL;
+if (Type== "F124") {
+  driven::setCategory("Guided Missile Frigate (FFG)");
+  driven::setSubCategory("Sachsen Class (Type 124)");
+} else if (Type == "F123") {
+  driven::setSubCategory("Brandenburg class (Type 123)");
+  driven::setCategory("Guided Missile Frigate (FFG)");
+}else if (Type == "F122"){
+  driven::setSubCategory("Bremen class (Type 122)");
+  driven::setCategory("Guided Missile Frigate (FFG)");
+} else{
+  std::string SubCategory , Category;
+  std::cout <<"Category as written in DIS Enum:";
+  getline(std::cin, Category);
+  std::cout <<"SubCategory as written in DIS Enum:"
+  << std::endl;
+  getline(std::cin, SubCategory);
+  driven::setSubCategory(SubCategory);
+  driven::setCategory(Category);
+}}
+\end{lstlisting}
+Im Listing \ref{warshipclass} ist der Konstruktor der Klasse \glqq warShip\grqq{} dargestellt. Hier ist zu sehen, dass für das Erstellen der Klasse nur die Attribute \glqq Name\grqq{}, \glqq Type\grqq{} und \glqq Country\grqq{} dem Konstruktor übergeben werden. Neben den genannten Attributen werden noch weitere benötigt, die das Objekt noch genauer spezifizieren.
+Die weiteren Attribute sind  \glqq Category\grqq{}, \glqq SubCategory\grqq{}, \glqq Kind\grqq{} und  \glqq Domain\grqq{}. Diese weiteren Attribute sind jedoch nur für die korrekte Erstellung der \ac{espdu} notwendig.
+Die Attribute   \glqq Category\grqq{} und \glqq SubCategory\grqq{} sind \ac{dis} spezifisch und sollten möglichst dem Inhalt der Enumeration entsprechen, da sonst die Übersetzung nicht möglich ist. 
+Die hier gezeigt Implementierung ist jedoch nur zu Testzwecken. Eine Elegantere Lösung wäre die Erstellung einer Datenbank beziehungsweise eines Containers, in dem die Möglichen Werte für die Attribute gespeichert sind und das Anhand des  \glqq Type\grqq{}  Wertes entschieden wird, welche Werte die Attribute  \glqq Category\grqq{} und \glqq SubCategory\grqq{} erhalten. Die Konstruktoren der Klassen  \glqq warPlane\grqq{},\glqq civilPlane\grqq{}, \glqq military\grqq{}, \glqq civil\grqq{} und \glqq civilShip\grqq{} können auf die gleiche Weise implementiert werden, wobei das für die Klassen \glqq military\grqq{} und \glqq warPlane\grqq{} schon der Fall ist.\\
+Das wohl größte Problem war die Übersetzung eines Objektes in eine \ac{espdu}. Dafür wurde eine eigene Klasse erstellt, die nur dafür zuständig ist den \glqq Entity Type \grqq{} zu erstellen.
+
+
+
+
 \section{Fähigkeiten der Klassenhierarchie}
 Im folgenden Anschnitt wird beschrieben, was die fertige Klassenhierarchie für Möglichkeiten bietet. Die konkrete Implementierung wird für ausgewählte Methoden im Abschnitt \ref{implement} erklärt.
 Grundlegen kann jedoch gesagt werden, dass die Klassenhierarchie eine Grundlage liefert, die je nach Bedarf beliebig erweitert werden kann.
@@ -414,47 +469,10 @@ Mit der Klassenhierarchie ist es Möglich ein Objekt zu erstellen, das ein zivil
 \end{itemize}
 Neben den oben genannten Attributen besitzt ein Objekt noch weitere, die nicht vom User gesetzt werden müssen, da sich bei entsprechender Eingabe im Konstruktor automatisch gesetzt werden. Klassen, bei denen diese Attribute automatisch im Konstruktor gesetzt werden, sind die \glqq warShip\grqq{} und die \glqq military\grqq{} Klasse. Diese Möglichkeit wurde bei diesen Klassen experimentell Implementiert.
 Des weiteren wurden eine Methode implementiert, mithilfe derer sich die Bewegung eines Objektes berechnen lässt. \\
-Nach der Erstellung eines Objektes der Grundklassen, können auch Ausrüstungsobjekte erstellt werden, die dann anschließend einem Objekt der Grundklasse als Attribut hinzugefügt wird. Als Grundlage für die Ausrüstung wurde das Model genutzt, welches im Abschnitt \ref{lös} beschrieben ist. Hierbei wurde sich auf zwei Waffen und auf drei Sensoren beschränkt. Weitere Klassen können, wie bei den Beispielklassen gezeigt, hinzugefügt werden. 
+Nach der Erstellung eines Objektes der Grundklassen, können auch Ausrüstungsobjekte erstellt werden, die dann anschließend einem Objekt der Grundklasse als Attribut hinzugefügt wird. Als Grundlage für die Ausrüstung wurde das Model genutzt, welches im Abschnitt \ref{lös} beschrieben ist. Hierbei wurde sich auf zwei Waffen und auf drei Sensoren beschränkt. Weitere Klassen können, wie bei den Beispielklassen gezeigt, hinzugefügt werden. \\
+Die Fähigkeiten 
 
-\section{Implementierung}\label{implement}
 
-\begin{lstlisting}[caption =Konstruktor  \glqq warShip\grqq{} Klasse ,label=warshipclass]
-warShip::warShip(std::string /*in*/Name,
-std::string /*in*/Type, 
-std::string/*in*/ Country) {
-
-object::setName(Name);
-driven::setType(Type);
-if (Type== "F124") {
-driven::setCategory("Guided Missile Frigate (FFG)");
-driven::setSubCategory("Sachsen Class (Type 124)");
-} else if (Type == "F123") {
-driven::setSubCategory("Brandenburg class (Type 123)");
-driven::setCategory("Guided Missile Frigate (FFG)");
-}else if (Type == "F122"){
-driven::setSubCategory("Bremen class (Type 122)");
-driven::setCategory("Guided Missile Frigate (FFG)");
-} else{
-std::string SubCategory;
-std::string Category;
-std::cout <<"Category as written in DIS Enum:";
-getline(std::cin, Category);
-std::cout <<"SubCategory as written in DIS Enum:"
-<< std::endl;
-getline(std::cin, SubCategory);
-driven::setSubCategory(SubCategory);
-driven::setCategory(Category);
-}
-object::setCountry(Country);
-object::setKind("Platform");
-object::SetDomain("Surface");
-object::setPosition(0,0,0);
-equipment = NULL;
-object::incrementCounter();
-}
-\end{lstlisting}
-Im Listing \ref{warshipclass} ist der Konstruktor der Klasse \glqq warShip\grqq{} dargestellt. Hier ist zu sehen, dass für das Erstellen der Klasse nur die Attribute \glqq Name\grqq{}, \glqq Type\grqq{} und \glqq Country\grqq{} dem Konstruktor übergeben werden. Neben den genannten Attributen werden noch weitere benötigt, die das Objekt noch genauer spezifizieren.
-Die weiteren Attribute sind  \glqq Category\grqq{}, \glqq SubCategory\grqq{}, \glqq Kind\grqq{} und  \glqq Domain\grqq{}. Diese weiteren Attribute sind jedoch nur für die korrekte Erstellung der \ac{espdu} notwendig, da \ac{dis} nur die in der Enumeration aufgeführten Objekte unterstützt. 
 \section{Offene Probleme}
 
 \chapter{Ausblick und Fazit}

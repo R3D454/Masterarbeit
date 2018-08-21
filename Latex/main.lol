@@ -7,7 +7,8 @@
 \contentsline {lstlisting}{\numberline {2.5}Klasse2.h}{12}{lstlisting.2.5}
 \contentsline {lstlisting}{\numberline {2.6}Beispiel virtuelle Funktion}{13}{lstlisting.2.6}
 \addvspace {10\p@ }
-\contentsline {lstlisting}{\numberline {3.1}Konstruktor \glqq warShip\grqq {} Klasse}{26}{lstlisting.3.1}
+\contentsline {lstlisting}{\numberline {3.1}\glqq get\grqq {} und \glqq set\grqq {} Methode}{25}{lstlisting.3.1}
+\contentsline {lstlisting}{\numberline {3.2}Konstruktor \glqq warShip\grqq {} Klasse}{26}{lstlisting.3.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
