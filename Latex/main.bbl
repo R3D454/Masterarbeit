@@ -5,6 +5,11 @@
 \newblock {\em C++ Objektorientiertes Programmieren von Anfang an}.
 \newblock 17. edition.
 
+\bibitem{HenryWinkel.}
+{Henry Winkel}.
+\newblock Beurteilung der open-dis c++ library zur simulation von mi-
+  lit{\"a}rischen szenarien.
+
 \bibitem{Krau.}
 Peter Krau{\ss}.
 \newblock Objektorientiertes programmieren in c++.
