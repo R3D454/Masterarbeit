@@ -18,7 +18,7 @@ In C++ gibt es neben den Pointer auch die Möglichkeit, Referenzen zu benutzen. 
 
 \subsection{Grundidee }
 Die Grundidee hinter der \acf{oop} ist das Abbilden von Objekten der realen Welt. Diese Objekte kommunizieren durch Nachrichten miteinander, welche sie  unterschiedlich interpretiert werden können.  Im Zuge von immer größer werdenden Softwareprojekte hat sich herausgestellt, dass es zum Beispiel mit der Programmiersprache C sehr schwer geworden ist, den  Überblick über den Programmcode und den Programmfluss zu behalten. Objektorientierte Programmiersprachen helfen den Überblick zu behalten und sie bringen Techniken mit sich, Programmteile wieder zu verwenden. Das ermöglicht  das schnellere und fehlerfreier Entwickeln von Programmen. Ein Nachteil von Programmiersprachen, die ausschließlich objektorientiert sprechen, ist, dass Funktionen nicht alleine existieren können. Dies führt dazu, dass kleine Programme unnötig kompliziert werden. Ein Sprache, die sowohl objektorientiert als auch prozedural verwendet werden kann, ist C++. Wie bereits erwähnt, wird diese Sprache im Rahmen dieser Masterarbeit verwendet.    
-Dabei werden unter anderem  Techniken wie die Vererbung und die Polymorphie verwendet. Diese Techniken werden in den folgenden Kapiteln beschrieben. Als Modelierungssprache wurde \ac{uml} und als \ac{ide} wurde Eclipse mit der Papyruserweiterung verwendet. Alle folgenden Beispiele werden anhand dieser Umgebung beschrieben.  
+Dabei werden unter anderem  Techniken wie die Vererbung und die Polymorphie verwendet. Diese Techniken werden in den folgenden Kapiteln beschrieben. Als Modelierungssprache wurde \ac{uml} und als \ac{ide} wurde Eclipse mit der Papyruserweiterung verwendet. Alle folgenden Beispiele werden anhand dieser Umgebung beschrieben. \\
 \cite{HelmutErlenkotter.}
 \cite{Prof.Dr.AlfredIrber.}
 
@@ -352,7 +352,8 @@ Im Variable Parameter record werden die Zusatzteile beschrieben, die an dem \ac{
 	\label{variableex}
 \end{table}
 
-
+\cite{SISOStandardsActivityCommitteeoftheIEEEComputerSociety.}
+\cite{Shanks.}
 \chapter{Entwurf der Klassenhierarchie }
 
 
@@ -721,11 +722,46 @@ Mit der Klassenhierarchie ist es Möglich ein Objekt zu erstellen, das ein zivil
 Neben den oben genannten Attributen besitzt ein Objekt noch weitere, die nicht vom User gesetzt werden müssen, da sich bei entsprechender Eingabe im Konstruktor automatisch gesetzt werden. Klassen, bei denen diese Attribute automatisch im Konstruktor gesetzt werden, sind die \glqq warShip\grqq{} und die \glqq military\grqq{} Klasse. Diese Möglichkeit wurde bei diesen Klassen experimentell Implementiert.
 Des weiteren wurden eine Methode implementiert, mithilfe derer sich die Bewegung eines Objektes berechnen lässt. \\
 Nach der Erstellung eines Objektes der Grundklassen, können auch Ausrüstungsobjekte erstellt werden, die dann anschließend einem Objekt der Grundklasse als Attribut hinzugefügt wird. Als Grundlage für die Ausrüstung wurde das Model genutzt, welches im Abschnitt \ref{lös} beschrieben ist. Hierbei wurde sich auf zwei Waffen und auf drei Sensoren beschränkt. Weitere Klassen können, wie bei den Beispielklassen gezeigt, hinzugefügt werden. \\
-Die Fähigkeiten 
+\begin{lstlisting}[caption = main.cpp ,label= main]
+#include <iostream>
 
+#include "warShip.h"
+#include "cannon.h"
+#include "rocket.h"
+#include "vls.h"
+#include "weapon.h"
+
+#define DST "127.0.0.255"
+
+int main(int argc, char const *argv[]) {
+Model::warShip ship1("Hamburg","F124","Germany");
+ship1.setMembership("Friendly");
+
+Model::Equipment eq1("Alpha");
+Model::cannon can1("Otto Melara MK21",120);
+Model::vls vls1("VLS System",32 );
+Model::rocket rocket("Tomahawk","Cruise missile",3000);
+
+vls1.addRocket(&rocket);
+eq1.addWeapon(&can1);
+eq1.addWeapon(&vls1);
+ship1.addEquipment(&eq1);
+
+ship1.createDISPDU();
+ship1.sendToNetwork(DST);
+return 0;
+}
+\end{lstlisting}
+In Listing \ref{main} ist die Main.cpp zusehen. Dieses Programm testet, soweit möglich, die Klassenhierarchie. Hier wird beispielsweise ein Kriegsschiff erstellt, mit Ausrüstung  bestückt und anschließend als \ac{espdu} an die angegebenen IP Adresse versendet.
+In Zeile 12 ist die Erstellung eines Kriegsschiffes der F124 Klasse zusehen. Als weitere Parameter werden der Name sowie die Nation übergeben. In Zeile 13 wird die Gesinnung festgelegt.   In den Zeilen 15 bis 18 werden die Objekte für die Ausrüstung erstellt. In den Zeilen 20 bis 23 wird die erstellte Ausrüstung dem Schiff, beziehungsweise dem Objekt der Klasse \glqq Equipment\grqq{}, hinzugefügt. In Zeile 25 wird die Methode aufgerufen, die das erstellte Objekt in eine \ac{espdu} über setzte. In der darauf folgenden Zeile wird die \ac{espdu} dann an die Adresse \glqq DST\grqq{} gesendet.\\ 
+Das in Listing \ref{main} erstellte Objekt der Klasse \glqq warShip\grqq{} kann in der aktuellen Version der Klassenhierarchie durch ein Objekt der Klasse \glqq militray\grqq{}, also durch ein militärisches Landfahrzeug ersetzt werden. Allgemein lässt sich sagen, dass nach der Implementierung der Konstruktoren und der Ergänzung der Datenbank der Klasse \glqq DIS\_enum\grqq{}, sich jedes beliebige Objekt erstellen, übersetzen und senden lassen kann.  
 
 \section{Offene Probleme}
-
+Wie in den vorhergehenden Abschnitten bereits angeschnitten ist eines der offenen Probleme die Erweiterung der Datenbanken und Konstruktoren, die die Erstellung weiterer Objekte der verschiedenen Klassen ermöglichen. In der aktuellen Version wurden nur wenige Einheiten in der Datenbank auf genommen , da lediglich das Grundgerüst geschaffen werden sollte und es keinen Konkreten bedarf gab. \\
+Ein weiteres offenes Problem ist die Implementierung der Methoden die die Position eines Objektes überprüfen und gegebenenfalls für ungültig erklären oder diesen korrigieren.  Dies ist nötig da verhindert werden muss, dass Schiffe eine Position haben, dessen Koordinaten auf eine Höhe besitzt, welche nicht zu einem Schiff passt. Ein weiteres Beispiel ist das ein Landfahrzeug  keine Position haben darf, die auf eine Position auf dem Wasser oder unter dem Wasser hinweist. Dabei muss jedoch auf die Vorgabe der Simulation geachtet werden, da Landfahrzeuge prinzipiell unter Wasser sein können jedoch diese Position ungewöhnlich für ein Landfahrzeug ist.\\
+Ein weiteres Problem ist das Implementieren einer Methode die das Abfeuern einer Waffe simuliert. Das Abfeuern muss anschließend als \ac{pdu} an die Simulationsteilnehmer gesendet werden. Die Methode, die die Übersetzung kann neu implementiert oder es kann die Methode der Klasse \glqq DIS\_enum\grqq{} erweitert werden. Neben dem Abfeuern einer Waffe wird dann auch die Simulation des Umsetzens, beziehungsweise der Einschlag der Munition benötigt. Hierfür wird ebenfalls die entsprechende  \ac{pdu} benötigt.\\
+Wie beschreiben, sollen mithilfe der Klassenhierarchie, Objekte simuliert werden, die sich nicht eigenständig bewegen können. Hierfür müssen gegebenenfalls weitere Klassen hinzugefügt werden oder bestehende angepasst werden. Diese Möglichkeit wurde noch nicht implementiert, da wert auf die Implementierung der Klassen gelegt wurde, die Kindklassen der Klasse  \glqq driven\grqq{} ist. \\
+Ein weitere Erweiterung wäre beispielsweise die Implementierung von Methoden die ein Objekt festgelegte Kurse abfahren oder fliegen lässt. Dabei muss überprüft werden, dass die eingegebenen Kurse zu den Objekten und deren Einsatzgebieten passen. 
 \chapter{Ausblick und Fazit}
 
 

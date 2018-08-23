@@ -5,11 +5,6 @@
 \newblock {\em C++ Objektorientiertes Programmieren von Anfang an}.
 \newblock 17. edition.
 
-\bibitem{HenryWinkel.}
-{Henry Winkel}.
-\newblock Beurteilung der open-dis c++ library zur simulation von mi-
-  lit{\"a}rischen szenarien.
-
 \bibitem{Krau.}
 Peter Krau{\ss}.
 \newblock Objektorientiertes programmieren in c++.
@@ -37,6 +32,10 @@ Peter Krau{\ss}.
 \newblock
   \url{https://wr.informatik.uni-hamburg.de/_media/teaching/sommersemester_2013/cgk-13-meyer-c-vs-c_-ausarbeitung.pdf}.
 \newblock [Online, Stand 08. August 2018].
+
+\bibitem{Shanks.}
+Graham Shanks.
+\newblock Enumeration and bit encoded values for dis.
 
 \bibitem{SISOStandardsActivityCommitteeoftheIEEEComputerSociety.}
 {SISO Standards Activity Committee of the IEEE Computer Society}.
