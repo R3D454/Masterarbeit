@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.2)  24 AUG 2018 10:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.2)  27 AUG 2018 10:53
 entering extended mode
 **./main.tex
 (main.tex
@@ -1104,8 +1104,11 @@ Package acronym Info: Label `acro:dis' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
 Package acronym Info: Label `acro:hla' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
-Package acronym Info: Label `acro:oop' newly defined as it shall be overridden
-although it is yet undefined on input line 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
+
+ []
+
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
 <to be read again> 
@@ -1127,12 +1130,14 @@ although it is yet undefined on input line 3.
 
 
 ]
+Package acronym Info: Label `acro:oop' newly defined as it shall be overridden
+although it is yet undefined on input line 20.
 Package acronym Info: Label `acro:uml' newly defined as it shall be overridden
 although it is yet undefined on input line 21.
 Package acronym Info: Label `acro:ide' newly defined as it shall be overridden
 although it is yet undefined on input line 21.
  [3]
-<bilder/pdfvorlagen/eineKlasse.pdf, id=265, 145.54375pt x 152.57pt>
+<bilder/pdfvorlagen/eineKlasse.pdf, id=263, 145.54375pt x 152.57pt>
 File: bilder/pdfvorlagen/eineKlasse.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/eineKlasse.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/eineKlasse.pdf  used on input line 
@@ -1157,13 +1162,13 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 37.
  (F:\Programme\Miktex\tex\latex\base\t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [5]
-<bilder/pdfvorlagen/test2.pdf, id=333, 164.615pt x 176.66pt>
+<bilder/pdfvorlagen/test2.pdf, id=331, 164.615pt x 176.66pt>
 File: bilder/pdfvorlagen/test2.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/test2.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/test2.pdf  used on input line 83.
 (pdftex.def)             Requested size: 197.537pt x 211.99092pt.
  [6]
-<bilder/pdfvorlagen/static.pdf, id=364, 164.615pt x 200.75pt>
+<bilder/pdfvorlagen/static.pdf, id=362, 164.615pt x 200.75pt>
 File: bilder/pdfvorlagen/static.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/static.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/static.pdf  used on input line 92.
@@ -1175,7 +1180,7 @@ Package pdftex.def Info: bilder/pdfvorlagen/static.pdf  used on input line 92.
                                                   \fi \fi 
 l.95  \end{figure}
                    <./bilder/pdfvorlagen/test2.pdf>]
-<bilder/pdfvorlagen/vererbung.pdf, id=407, 166.6225pt x 407.5225pt>
+<bilder/pdfvorlagen/vererbung.pdf, id=405, 166.6225pt x 407.5225pt>
 File: bilder/pdfvorlagen/vererbung.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/vererbung.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/vererbung.pdf  used on input line 1
@@ -1237,7 +1242,7 @@ ble.2.6}) has been already used, duplicate ignored
 l.357 \chapter
               {Entwurf der Klassenhierarchie }]
 chapter 3.
-<bilder/pdfvorlagen/ansatz2.pdf, id=648, 434.62375pt x 212.795pt>
+<bilder/pdfvorlagen/ansatz2.pdf, id=646, 434.62375pt x 212.795pt>
 File: bilder/pdfvorlagen/ansatz2.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/ansatz2.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/ansatz2.pdf  used on input line 370
@@ -1246,7 +1251,7 @@ Package pdftex.def Info: bilder/pdfvorlagen/ansatz2.pdf  used on input line 370
 [19
 
 ]
-<bilder/pdfvorlagen/ansatz1.pdf, id=660, 332.24126pt x 345.29pt>
+<bilder/pdfvorlagen/ansatz1.pdf, id=658, 332.24126pt x 345.29pt>
 File: bilder/pdfvorlagen/ansatz1.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/ansatz1.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/ansatz1.pdf  used on input line 378
@@ -1286,7 +1291,7 @@ chapter 4.
 
 ]
 chapter 5.
-<bilder/pdfvorlagen/ansatz3.pdf, id=1127, 1145.27875pt x 465.74pt>
+<bilder/pdfvorlagen/ansatz3.pdf, id=1125, 1145.27875pt x 465.74pt>
 File: bilder/pdfvorlagen/ansatz3.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/ansatz3.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/ansatz3.pdf  used on input line 775
@@ -1295,7 +1300,7 @@ Package pdftex.def Info: bilder/pdfvorlagen/ansatz3.pdf  used on input line 775
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<bilder/pdfvorlagen/equip.pdf, id=1128, 1145.27875pt x 604.2575pt>
+<bilder/pdfvorlagen/equip.pdf, id=1126, 1145.27875pt x 604.2575pt>
 File: bilder/pdfvorlagen/equip.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/equip.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/equip.pdf  used on input line 784.
@@ -1366,9 +1371,9 @@ pk> <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ecsx1728.pk> <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
 \ec\dpi600\ecbx1200.pk> <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
 r\jknappen\ec\dpi600\ecbx1440.pk>
-Output written on main.pdf (52 pages, 814366 bytes).
+Output written on main.pdf (52 pages, 813486 bytes).
 PDF statistics:
- 1829 PDF objects out of 2073 (max. 8388607)
+ 1827 PDF objects out of 2073 (max. 8388607)
  494 named destinations out of 1000 (max. 500000)
  214 words of extra memory for PDF output out of 10000 (max. 10000000)
 
