@@ -86,14 +86,6 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1e87p5obEeiYu5vqFihpmQ"/>
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_1e87qJobEeiYu5vqFihpmQ" type="Class_OperationCompartment">
-      <children xmi:type="notation:Shape" xmi:id="_VocAkJocEeiYu5vqFihpmQ" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="tes.uml#_VoVS4JocEeiYu5vqFihpmQ"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_VocAkZocEeiYu5vqFihpmQ"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_atPXMJocEeiYu5vqFihpmQ" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="tes.uml#_atFmMJocEeiYu5vqFihpmQ"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_atPXMZocEeiYu5vqFihpmQ"/>
-      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_1e87qZobEeiYu5vqFihpmQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_1e87qpobEeiYu5vqFihpmQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_1e87q5obEeiYu5vqFihpmQ"/>
@@ -106,7 +98,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1e87sZobEeiYu5vqFihpmQ"/>
     </children>
     <element xmi:type="uml:Class" href="tes.uml#_1exVcJobEeiYu5vqFihpmQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1e7tgZobEeiYu5vqFihpmQ" x="40" y="340" width="201" height="221"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1e7tgZobEeiYu5vqFihpmQ" x="40" y="340" width="201" height="141"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_WKC1EJc4EeiBPM0RSXGlkw" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_WKC1EZc4EeiBPM0RSXGlkw"/>

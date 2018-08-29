@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_AkRQUKuNEei0IrSt0pN6kw" name="model3">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_An2v0KuNEei0IrSt0pN6kw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BsOW4KuNEei0IrSt0pN6kw" name="Klasse " visibility="public">
+    <generalization xmi:type="uml:Generalization" xmi:id="_BsOW4auNEei0IrSt0pN6kw">
+      <general xmi:type="uml:Class" href="tes.uml#_1exVcJobEeiYu5vqFihpmQ"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BsOW4quNEei0IrSt0pN6kw" name="Variable 2" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BsOW46uNEei0IrSt0pN6kw" name="Variable 1" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BsOW5KuNEei0IrSt0pN6kw" name="Variable 3" visibility="protected">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BsOW5auNEei0IrSt0pN6kw" name="Counter" visibility="private" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BsOW5quNEei0IrSt0pN6kw" name="getVariable2">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BsOW56uNEei0IrSt0pN6kw" name="zahl" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BsOW6KuNEei0IrSt0pN6kw" name="Methode 2" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BsOW6auNEei0IrSt0pN6kw" name="Methode 3" visibility="protected"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BsOW6quNEei0IrSt0pN6kw" name="setVariable2">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BsOW66uNEei0IrSt0pN6kw" name="zahl">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BsOW7KuNEei0IrSt0pN6kw" name="Klasse">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BsOW7auNEei0IrSt0pN6kw" name="Value">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BsOW7quNEei0IrSt0pN6kw" name="Klasse"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BsOW76uNEei0IrSt0pN6kw" name="Mehtode 4" isStatic="true"/>
+  </packagedElement>
+</uml:Model>
