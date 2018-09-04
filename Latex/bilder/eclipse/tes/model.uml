@@ -7,10 +7,10 @@
     <generalization xmi:type="uml:Generalization" xmi:id="_EA5PkauKEei0IrSt0pN6kw">
       <general xmi:type="uml:Class" href="tes.uml#_1exVcJobEeiYu5vqFihpmQ"/>
     </generalization>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_EA5PkquKEei0IrSt0pN6kw" name="Variable 2" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EA5Pk6uKEei0IrSt0pN6kw" name="Variable 1" visibility="public">
       <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_EA5Pk6uKEei0IrSt0pN6kw" name="Variable 1" visibility="public">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EA5PkquKEei0IrSt0pN6kw" name="Variable 2" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_EA5PlKuKEei0IrSt0pN6kw" name="Variable 3" visibility="protected">
@@ -18,6 +18,11 @@
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_EA5PlquKEei0IrSt0pN6kw" name="getVariable2">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_EA5Pl6uKEei0IrSt0pN6kw" name="zahl" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_72KMILBSEeij6P1dmvDn_w" name="setVariable2">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_72KMIbBSEeij6P1dmvDn_w" name="zahl">
         <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
       </ownedParameter>
     </ownedOperation>

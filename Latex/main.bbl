@@ -1,4 +1,11 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{BenjaminBuch.}
+{Benjamin Buch}.
+\newblock C++ programmierung.
+\newblock
+  \url{https://upload.wikimedia.org/wikibooks/de/archive/5/59/20120702072116%21Cplusplus.pdf}.
+\newblock [Online, Stand 08. August 2018].
 
 \bibitem{HelmutErlenkotter.}
 {Helmut Erlenk{\"o}tter}.
@@ -46,5 +53,10 @@ Graham Shanks.
 {SISO Standards Activity Committee of the IEEE Computer Society}.
 \newblock Ieee std 1278.1-2012, ieee standard for distributed interactive
   simulation---application protocols.
+
+\bibitem{SISOStandardsActivityCommitteeoftheIEEEComputerSociety.6November2015}
+{SISO Standards Activity Committee of the IEEE Computer Society}.
+\newblock Ieee standard for distributed interactive simulation (dis)--
+  communication services and profiles, 6 November 2015.
 
 \end{thebibliography}

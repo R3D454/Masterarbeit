@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.2)  3 SEP 2018 16:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.2)  4 SEP 2018 17:17
 entering extended mode
 **./main.tex
 (main.tex
@@ -1111,8 +1111,6 @@ Package acronym Info: Label `acro:dis' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
 Package acronym Info: Label `acro:hla' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
-Package acronym Info: Label `acro:oop' newly defined as it shall be overridden
-although it is yet undefined on input line 6.
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
 <to be read again> 
@@ -1135,24 +1133,31 @@ although it is yet undefined on input line 3.
 
 ]
 Package acronym Info: Label `acro:uml' newly defined as it shall be overridden
-although it is yet undefined on input line 21.
+although it is yet undefined on input line 22.
 Package acronym Info: Label `acro:ide' newly defined as it shall be overridden
-although it is yet undefined on input line 21.
+although it is yet undefined on input line 22.
  [3]
-<bilder/pdfvorlagen/eineKlasseSVG.pdf, id=243, 145.343pt x 177.463pt>
-File: bilder/pdfvorlagen/eineKlasseSVG.pdf Graphic file (type pdf)
-<use bilder/pdfvorlagen/eineKlasseSVG.pdf>
-Package pdftex.def Info: bilder/pdfvorlagen/eineKlasseSVG.pdf  used on input li
-ne 32.
+Package acronym Info: Label `acro:oop' newly defined as it shall be overridden
+although it is yet undefined on input line 27.
+
+Overfull \hbox (1.66203pt too wide) in paragraph at lines 27--29
+\T1/cmr/m/n/12 Wie oben ge-nannt, ist die Grun-di-dee hin-ter der [][][]objekto
+rientierte Pro-gram-mie-rung ([])[]
+ []
+
+<bilder/pdfvorlagen/model.pdf, id=246, 145.343pt x 177.463pt>
+File: bilder/pdfvorlagen/model.pdf Graphic file (type pdf)
+<use bilder/pdfvorlagen/model.pdf>
+Package pdftex.def Info: bilder/pdfvorlagen/model.pdf  used on input line 33.
 (pdftex.def)             Requested size: 145.34262pt x 177.46255pt.
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 39.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 39.
+nput line 40.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 40.
 (F:\Programme\Miktex\tex\latex\base\t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
@@ -1160,103 +1165,102 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.46 	int 
-          getVariable2(); <./bilder/pdfvorlagen/eineKlasseSVG.pdf>] [6]
-<bilder/pdfvorlagen/model2.pdf, id=395, 158.19101pt x 231.26399pt>
+l.47 	int 
+          getVariable2(); <./bilder/pdfvorlagen/model.pdf>] [6]
+<bilder/pdfvorlagen/model2.pdf, id=409, 158.19101pt x 215.204pt>
 File: bilder/pdfvorlagen/model2.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/model2.pdf>
-Package pdftex.def Info: bilder/pdfvorlagen/model2.pdf  used on input line 86.
-(pdftex.def)             Requested size: 158.19061pt x 231.26341pt.
-<bilder/pdfvorlagen/model3.pdf, id=401, 154.97899pt x 214.401pt>
+Package pdftex.def Info: bilder/pdfvorlagen/model2.pdf  used on input line 87.
+(pdftex.def)             Requested size: 189.82825pt x 258.24348pt.
+<bilder/pdfvorlagen/model3.pdf, id=415, 175.857pt x 214.401pt>
 File: bilder/pdfvorlagen/model3.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/model3.pdf>
-Package pdftex.def Info: bilder/pdfvorlagen/model3.pdf  used on input line 96.
-(pdftex.def)             Requested size: 185.97385pt x 257.27989pt.
-
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}
-) has been already used, duplicate ignored
+Package pdftex.def Info: bilder/pdfvorlagen/model3.pdf  used on input line 97.
+(pdftex.def)             Requested size: 211.02734pt x 257.27989pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.99  \end{figure}
-                   <./bilder/pdfvorlagen/model2.pdf>]
-<bilder/pdfvorlagen/tes.pdf, id=542, 177.463pt x 370.18298pt>
+l.100  \end{figure}
+                    <./bilder/pdfvorlagen/model2.pdf>]
+<bilder/pdfvorlagen/tes.pdf, id=556, 177.463pt x 370.18298pt>
 File: bilder/pdfvorlagen/tes.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/tes.pdf>
-Package pdftex.def Info: bilder/pdfvorlagen/tes.pdf  used on input line 108.
+Package pdftex.def Info: bilder/pdfvorlagen/tes.pdf  used on input line 109.
 (pdftex.def)             Requested size: 159.71521pt x 333.1616pt.
  [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.111 \end{figure}
+l.112 \end{figure}
                    <./bilder/pdfvorlagen/model3.pdf>] [9pdfTeX warning (ext4): 
 destination with the same identifier (name{figure.2.4}) has been already used, 
 duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.113 ...ion =Vererbung in C++,label=vererbungc++]
-                                                   <./bilder/pdfvorlagen/tes.pd
-f>] [10] [11pdfTeX warning (ext4): destination with the same identifier (name{t
-able.2.1}) has been already used, duplicate ignored
+l.113 \newpage
+               <./bilder/pdfvorlagen/tes.pdf>] [10] [11pdfTeX warning (ext4): d
+estination with the same identifier (name{table.2.1}) has been already used, du
+plicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.178 \newpage
+l.180 \newpage
               ] [12] [13]
 Package acronym Info: Label `acro:ieee' newly defined as it shall be overridden
 
-although it is yet undefined on input line 224.
+although it is yet undefined on input line 226.
  [14] [15] [16pdfTeX warning (ext4): destination with the same identifier (name
 {table.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.302 D
+l.304 D
        er Entity Type gibt Auskunft darüber, um was für eine spezielle Art...
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.3}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.302 D
+l.304 D
        er Entity Type gibt Auskunft darüber, um was für eine spezielle Art...
 ] [17pdfTeX warning (ext4): destination with the same identifier (name{table.2.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.320 I
+l.322 I
        m Variable Parameter record werden die Zusatzteile beschrieben, die a...
 ] [18pdfTeX warning (ext4): destination with the same identifier (name{table.2.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.354 
+l.356 
       ] [19pdfTeX warning (ext4): destination with the same identifier (name{ta
 ble.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.356 \chapter
+l.358 \chapter
               {Entwurf der Klassenhierarchie }]
 chapter 3.
-<bilder/pdfvorlagen/ansatz2.pdf, id=1063, 434.62375pt x 212.795pt>
+<bilder/pdfvorlagen/ansatz2.pdf, id=1079, 434.62375pt x 212.795pt>
 File: bilder/pdfvorlagen/ansatz2.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/ansatz2.pdf>
-Package pdftex.def Info: bilder/pdfvorlagen/ansatz2.pdf  used on input line 369
+Package pdftex.def Info: bilder/pdfvorlagen/ansatz2.pdf  used on input line 371
 .
 (pdftex.def)             Requested size: 391.15775pt x 191.51372pt.
 [20
 
 ]
-<bilder/pdfvorlagen/ansatz1.pdf, id=1076, 332.24126pt x 345.29pt>
+<bilder/pdfvorlagen/ansatz1.pdf, id=1092, 332.24126pt x 345.29pt>
 File: bilder/pdfvorlagen/ansatz1.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/ansatz1.pdf>
-Package pdftex.def Info: bilder/pdfvorlagen/ansatz1.pdf  used on input line 377
+Package pdftex.def Info: bilder/pdfvorlagen/ansatz1.pdf  used on input line 379
 .
 (pdftex.def)             Requested size: 299.01436pt x 310.7581pt.
  [21pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
@@ -1264,36 +1268,36 @@ Package pdftex.def Info: bilder/pdfvorlagen/ansatz1.pdf  used on input line 377
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.380 \end{figure}
+l.382 \end{figure}
                    <./bilder/pdfvorlagen/ansatz2.pdf>]
 Package acronym Info: Label `acro:vls' newly defined as it shall be overridden
-although it is yet undefined on input line 384.
+although it is yet undefined on input line 386.
  [22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.385 
+l.387 
        <./bilder/pdfvorlagen/ansatz1.pdf>] [23] [24] [25] [26] [27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
 
  []
 
 [29] [30] [31] [32] [33] [34] [35]
-Overfull \hbox (3.77316pt too wide) in paragraph at lines 659--660
+Overfull \hbox (3.77316pt too wide) in paragraph at lines 661--662
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
 Package acronym Info: Label `acro:udp' newly defined as it shall be overridden
-although it is yet undefined on input line 680.
+although it is yet undefined on input line 683.
 
-Overfull \hbox (57.34122pt too wide) in paragraph at lines 676--683
+Overfull \hbox (1.15498pt too wide) in paragraph at lines 678--686
 \T1/cmr/m/n/12 keStd-DISPDU(DIS::Vector3Float ve-lo,DIS::Orientation orie) und
- der DIS_EntityType_Variables
+ der DIS_EntityType
  []
 
 [36] [37]
-Underfull \hbox (badness 10000) in paragraph at lines 715--718
+Underfull \hbox (badness 10000) in paragraph at lines 718--721
 
  []
 
@@ -1303,32 +1307,47 @@ chapter 4.
 
 ]
 chapter 5.
-<bilder/pdfvorlagen/ansatz3.pdf, id=1545, 1145.27875pt x 465.74pt>
+<bilder/pdfvorlagen/ansatz3.pdf, id=1561, 1145.27875pt x 465.74pt>
 File: bilder/pdfvorlagen/ansatz3.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/ansatz3.pdf>
-Package pdftex.def Info: bilder/pdfvorlagen/ansatz3.pdf  used on input line 769
+Package pdftex.def Info: bilder/pdfvorlagen/ansatz3.pdf  used on input line 796
 .
-(pdftex.def)             Requested size: 635.49744pt x 476.6404pt.
+(pdftex.def)             Requested size: 492.94958pt x 457.58046pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (44.81863pt too wide) in paragraph at lines 796--796
+ [][] 
+ []
 
-<bilder/pdfvorlagen/equip.pdf, id=1546, 1145.27875pt x 604.2575pt>
+
+Overfull \hbox (38.29955pt too wide) in paragraph at lines 782--797
+[][] 
+ []
+
+<bilder/pdfvorlagen/equip.pdf, id=1562, 1145.27875pt x 604.2575pt>
 File: bilder/pdfvorlagen/equip.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/equip.pdf>
-Package pdftex.def Info: bilder/pdfvorlagen/equip.pdf  used on input line 778.
-(pdftex.def)             Requested size: 635.49744pt x 476.62057pt.
+Package pdftex.def Info: bilder/pdfvorlagen/equip.pdf  used on input line 818.
+(pdftex.def)             Requested size: 537.75682pt x 457.5624pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (38.28148pt too wide) in paragraph at lines 807--819
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 40.61214pt on input line 819.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [43
 
-] [44pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.106 \include{hauptteil}
-                          <./bilder/pdfvorlagen/ansatz3.pdf>] [45pdfTeX warning
+                          <./bilder/pdfvorlagen/ansatz3.pdf>] [44pdfTeX warning
  (ext4): destination with the same identifier (name{figure.5.2}) has been alrea
 dy used, duplicate ignored
 
@@ -1338,22 +1357,40 @@ l.106 \include{hauptteil}
                           <./bilder/pdfvorlagen/equip.pdf>] (main.bbl
 chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--40
-[][]$\T1/cmtt/m/n/12 https : / / wr . informatik . uni-[]hamburg . de / _media 
-/ teaching / sommersemester _
+Underfull \hbox (badness 5119) in paragraph at lines 4--9
+[]\T1/cmr/m/n/12 Benjamin Buch.  C++ pro-gram-mie-rung.  [][]$\T1/cmtt/m/n/12 h
+ttps : / / upload . wikimedia .
  []
 
-)
+
+Underfull \hbox (badness 4608) in paragraph at lines 41--47
+[]\T1/cmr/m/n/12 Sebastian Mey-er.  C vs. c++ pro-se-mi-nar c - grund-la-gen u
+nd kon-
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 41--47
+\T1/cmr/m/n/12 zep-te 2013.  [][]$\T1/cmtt/m/n/12 https : / / wr . informatik
+ . uni-[]hamburg . de / _media / teaching /
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 41--47
+\T1/cmtt/m/n/12 sommersemester _ 2013 / cgk-[]13-[]meyer-[]c-[]vs-[]c _ -[]ausa
+rbeitung . pdf$[][]\T1/cmr/m/n/12 .  [On-li-ne,
+ []
+
+[45
+
+
+])
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
-[46
-
-
-]
+[46]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
  (main.aux (einleitung.aux) (hauptteil.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
@@ -1363,13 +1400,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
  ) 
 Here is how much of TeX's memory you used:
- 20469 strings out of 492973
- 331541 string characters out of 3139481
+ 20475 strings out of 492973
+ 331873 string characters out of 3139481
  608982 words of memory out of 3000000
- 23476 multiletter control sequences out of 15000+200000
+ 23480 multiletter control sequences out of 15000+200000
  16135 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,11n,97p,9085b,2019s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,12n,97p,9085b,2019s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 ecti1200.pk> <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
 ec\dpi600\tcrm1200.pk> <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
@@ -1383,9 +1420,9 @@ pk> <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ecsx1728.pk> <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
 \ec\dpi600\ecbx1200.pk> <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
 r\jknappen\ec\dpi600\ecbx1440.pk>
-Output written on main.pdf (52 pages, 803924 bytes).
+Output written on main.pdf (52 pages, 810790 bytes).
 PDF statistics:
- 2247 PDF objects out of 2487 (max. 8388607)
- 489 named destinations out of 1000 (max. 500000)
+ 2271 PDF objects out of 2487 (max. 8388607)
+ 491 named destinations out of 1000 (max. 500000)
  206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

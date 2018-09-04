@@ -9,13 +9,13 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_lSWMsquLEei0IrSt0pN6kw" y="15"/>
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_lSWzwKuLEei0IrSt0pN6kw" type="Class_AttributeCompartment">
-      <children xmi:type="notation:Shape" xmi:id="_mGVOYKuLEei0IrSt0pN6kw" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="model2.uml#_lSTJYquLEei0IrSt0pN6kw"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_mGVOYauLEei0IrSt0pN6kw"/>
-      </children>
       <children xmi:type="notation:Shape" xmi:id="_mGVOYquLEei0IrSt0pN6kw" type="Property_ClassAttributeLabel">
         <element xmi:type="uml:Property" href="model2.uml#_lSTJY6uLEei0IrSt0pN6kw"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_mGVOY6uLEei0IrSt0pN6kw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_mGVOYKuLEei0IrSt0pN6kw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="model2.uml#_lSTJYquLEei0IrSt0pN6kw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mGVOYauLEei0IrSt0pN6kw"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_mGV1cKuLEei0IrSt0pN6kw" type="Property_ClassAttributeLabel">
         <element xmi:type="uml:Property" href="model2.uml#_lSTJZKuLEei0IrSt0pN6kw"/>
@@ -35,13 +35,13 @@
         <element xmi:type="uml:Operation" href="model2.uml#_lSTJbquLEei0IrSt0pN6kw"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_mGWch6uLEei0IrSt0pN6kw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_mGWcgquLEei0IrSt0pN6kw" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="model2.uml#_lSTJaquLEei0IrSt0pN6kw"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_mGWcg6uLEei0IrSt0pN6kw"/>
-      </children>
       <children xmi:type="notation:Shape" xmi:id="_mGV1dKuLEei0IrSt0pN6kw" type="Operation_ClassOperationLabel">
         <element xmi:type="uml:Operation" href="model2.uml#_lSTJZquLEei0IrSt0pN6kw"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_mGV1dauLEei0IrSt0pN6kw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_mGWcgquLEei0IrSt0pN6kw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="model2.uml#_lSTJaquLEei0IrSt0pN6kw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mGWcg6uLEei0IrSt0pN6kw"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_mGV1dquLEei0IrSt0pN6kw" type="Operation_ClassOperationLabel">
         <element xmi:type="uml:Operation" href="model2.uml#_lSTJaKuLEei0IrSt0pN6kw"/>

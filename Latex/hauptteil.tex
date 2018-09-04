@@ -4,16 +4,17 @@ Im folgenden Kapitel werden die Grundlagen beschrieben und erklärt, die für di
 
 
 \section{C++ }
-C++ ist eine objektorientierte Programmiersprache, die eine Weiterentwicklung der Sprache C ist. Jedoch ist C nicht komplett in C++ enthalten. Bei der Entwicklung von C++ ist man trotzdem dicht an der Syntax von C geblieben. C++ wurde in den 1980er Jahren von Bjarne Stroustrup entwickelt. Für die erste Version, die \glqq C with Classes\grqq{} hieß, versuchte er durch das Nutzen von Teilen der Programmiersprachen Simula und BCPL die Sprache C zu erweitern. Das Konzept der objektorientierten Programmiersprache  wurde aus der Sprache Simula entnommen, die als die erste Programmiersprachen das Klassenkonzept beinhaltet.  BLCP, welche ein Vorgänger von C ist, lieferte den  prozeduralen Anteil.   1983 wurde \glqq C with Classes\grqq{} zu C++ umbenannt. Das erste Release von C++ 1.0 wurde 1985 veröffentlicht. 1998 wurde C++ als Standard \glqq ISO/IEC 14882\grqq{} festgelegt. Im laufe der Zeit wurde C++ immer weiter verbessert und bekam neue Funktionen. Die aktuellste Version von C++ ist C++17, welches 2017 veröffentlicht wurde.\\
+C++ ist eine objektorientierte Programmiersprache, die eine Weiterentwicklung der Sprache C ist. Jedoch ist C nicht komplett in C++ enthalten. Bei der Entwicklung von C++ ist man trotzdem dicht an der Syntax von C geblieben. C++ wurde in den 1980er Jahren von Bjarne Stroustrup entwickelt. Für die erste Version, die \glqq C with Classes\grqq{} hieß, versuchte er durch das Nutzen von Teilen der Programmiersprachen Simula und BCPL die Sprache C zu erweitern. Das Konzept der objektorientierten Programmiersprache  wurde aus der Sprache Simula entnommen, die als die erste Programmiersprachen das Klassenkonzept beinhaltet.  BLCP, welche ein Vorgänger von C ist, lieferte den  prozeduralen Anteil.   1983 wurde \glqq C with Classes\grqq{} zu C++ umbenannt. Das erste Release von C++ 1.0 wurde 1985 veröffentlicht. 1998 wurde C++ als Standard \glqq ISO/IEC 14882\grqq{} festgelegt. Im Laufe der Zeit wurde C++ immer weiter verbessert und bekam neue Funktionen. Die aktuellste Version von C++ ist C++17, welches 2017 veröffentlicht wurde.\\
 C++ bringt nicht nur eine Reihe von Vereinfachungen und Ergänzungen mit sich, sondern auch diverse Verschärfungen und Änderungen. 
-C++ bringt als großen Vorteil die Möglichkeit objektorientiert zu Programmieren. Was genau  \acl{oop} ist, wird in den nachfolgenden Kapitel erklärt. Ein weiterer großer Vorteil von C++ sind Templates. Durch Templates werden unter anderem Container bereitgestellt, die eine dynamische Speicherverwaltung ermöglichen. Container können Listen, Vektoren oder Warteschlagen dynamischer Größe sein, deren Inhalt Elemente einer beliebigen Datenstrukturen sein kann. Neben den Containern, die Klassen-Templates  sind,  gib es noch Funktions-Templates und Variablen-Templates, welche hier nicht weiter erklärt werden, da sie in dieser Masterarbeit keine Anwendung finden. \\
-Eine weitere Neuerung in C++ ist die Möglichkeit, Speicher zu reservieren. In C++ kann man durch den Befehl \glqq new\grqq{} Speicher eines beliebigen Typs reservieren. Dieser Befehl ersetzt das \glqq malloc\grqq{} aus C.  Das Gegenstück dazu ist das  \glqq delete\grqq{}. Mit diesem Befehl kann man den reservierten Speicher wieder freigeben. Der unterschied zwischen  \glqq malloc\grqq{} und \glqq new\grqq{} ist zum Einen der, dass es sich bei \glqq malloc\grqq{} um eine Funktion handelt  und \glqq new\grqq{} ein Operator ist.  Ein weiterer Unterschied  ist, dass \glqq new\grqq{} den Konstruktor einer Klasse aufruft und \glqq malloc\grqq{} dies nicht tut. Weiter muss bei \glqq malloc\grqq{} die zu reservierende Größe des Speichers manuell berechnet werden. Bei  \glqq new\grqq{} wir die Größe vom Compiler bestimmt. \\
+C++ bringt als großen Vorteil die Möglichkeit, objektorientiert zu programmieren. Was genau  \acl{oop} ist, wird in den nachfolgenden Kapitel erklärt. Ein weiterer großer Vorteil von C++ sind Templates. Durch Templates werden unter anderem Container bereitgestellt, die eine dynamische Speicherverwaltung ermöglichen. Container können Listen, Vektoren oder Warteschlagen dynamischer Größe sein, deren Inhalt Elemente einer beliebigen Datenstrukturen sein kann. Neben den Containern, die Klassen-Templates  sind,  gib es noch Funktions-Templates und Variablen-Templates, welche hier nicht weiter erklärt werden, da sie in dieser Masterarbeit keine Anwendung finden. \\
+Eine weitere Neuerung in C++ ist die Möglichkeit, Speicher zu reservieren. In C++ kann man durch den Befehl \glqq new\grqq{} Speicher eines beliebigen Typs reservieren. Dieser Befehl ersetzt das \glqq malloc\grqq{} aus C.  Das Gegenstück dazu ist das  \glqq delete\grqq{}. Mit diesem Befehl kann man den reservierten Speicher wieder freigeben. Der Unterschied zwischen  \glqq malloc\grqq{} und \glqq new\grqq{} ist, dass es sich bei \glqq malloc\grqq{} um eine Funktion handelt  und \glqq new\grqq{} ein Operator ist.  Ein weiterer Unterschied  ist, dass \glqq new\grqq{} den Konstruktor einer Klasse aufruft und \glqq malloc\grqq{} dies nicht tut. Weiter muss bei \glqq malloc\grqq{} die zu reservierende Größe des Speichers manuell berechnet werden. Bei  \glqq new\grqq{} wir die Größe vom Compiler bestimmt. \\
 In C++ gibt es neben den Pointern auch die Möglichkeit, Referenzen zu benutzen. Der Unterschied zwischen einer Referenz und einem Pointer ist, dass eine Referenz prinzipiell nur eine neue Bezeichnung für eine bereits vorhandene Variable ist.  Neben den genannten Änderungen gibt es noch viele weitere, die jedoch im Rahmen dieser Masterarbeit keine oder nur am Rande benutzt wurden.   
 \\
 \cite{SebastianMeyer.}
 \cite{Krau.}
 \cite{Prof.Dr.Ing.WolfgangSchroderPreikschat.}
 \cite{HelmutErlenkotter.}
+\cite{BenjaminBuch.}
 \section{Objektorientiertes Programmieren }
 
 \subsection{Grundidee }
@@ -21,7 +22,7 @@ Die Grundidee hinter der objektorientierten Programmierung (\acs{oop}) ist das A
 Dabei werden unter anderem  Techniken wie die Vererbung und die Polymorphie verwendet. Diese Techniken werden in den folgenden Kapiteln beschrieben. Als Modelierungssprache wurde \ac{uml} und als \ac{ide} wurde Eclipse mit der Papyruserweiterung verwendet. Alle folgenden Beispiele werden anhand dieser Umgebung beschrieben. \\
 \cite{HelmutErlenkotter.}
 \cite{Prof.Dr.AlfredIrber.}
-
+\cite{Krau.}
 \subsection{Klassen und Objekte}
 Wie oben genannt, ist die Grundidee hinter der \ac{oop} das Abbilden der realen Welt, um Probleme zu lösen. Ein zentraler Gegenstand hierbei ist die Klasse. Eine Klasse enthält, ähnlich wie das \glqq struct\grqq{} in C, Daten, die Attribute genannt werden. Der Unterschied zu einem klassischen  \glqq struct\grqq{} ist jedoch, dass eine Klasse Funktionen beziehungsweise Methoden enthält, die auf diese Daten zugreifen können. Des Weiteren können  Klassen auch von anderen abgeleitet werden, was Vererbung genannt wird. Die Vererbung wird im nachfolgenden Unterabschnitt erläutert. \\
 Um einen unerlaubten Zugriff auf Methoden und Attribute einer Klasse zu verhindern, kann innerhalb der Klasse festgelegt werden, wer auf Inhalte der Klasse zugreifen kann. Dies gliedert sich in drei Gruppen. Funktionen und Methoden können \glqq public\grqq{},  \glqq private\grqq{} oder \glqq protected\grqq{} sein. Soll der Inhalt für jeden zugänglich sein, dann ist er \glqq public\grqq{}. Ist ein Methode oder Attribut \glqq private\grqq{}, dann darf nur von innerhalb der Klasse auf ihn zugegriffen werden. Bei \glqq protected\grqq{} Inhalten können alle von der Klasse abgeleiteten Klassen auf den Inhalt zugreifen.
@@ -29,7 +30,7 @@ Um einen unerlaubten Zugriff auf Methoden und Attribute einer Klasse zu verhinde
 \begin{figure}[H]
 	\centering
 	%\includegraphics[scale=1.2]{bilder/pdfvorlagen/eineKlasse}
-	\includegraphics[scale=1]{bilder/pdfvorlagen/eineKlasseSVG}
+	\includegraphics[scale=1]{bilder/pdfvorlagen/model}
 	
 	\caption[eine Klasse]{eine Klasse}
 	\label{fig:eineklasse}
@@ -83,7 +84,7 @@ In Listing \ref{klass.h} ist die Header Datei der Beispielklasse aus dem Bild \r
   \begin{figure}[H]
   	\centering
   	%\includegraphics[scale=1.2]{bilder/pdfvorlagen/test2}
-  	  	\includegraphics[scale=1]{bilder/pdfvorlagen/model2}
+  	  	\includegraphics[scale=1.2]{bilder/pdfvorlagen/model2}
   	\caption[eine Klasse mit Konstruktor und Destruktor]{eine Klasse mit Konstruktor und Destruktor}
   	\label{fig:klasseKonstr}
   \end{figure}
@@ -94,7 +95,7 @@ Die Klasse stellt jedoch nur den Bauplan für ein Objekt dar. Um die implementie
  	\centering
  	%\includegraphics[scale=1.2]{bilder/pdfvorlagen/static}
  	 	\includegraphics[scale=1.2]{bilder/pdfvorlagen/model3}
- 	\caption[eine Klasse mit Statischer Variable]{eine Klasse mit Statischer Variable}
+ 	\caption[eine Klasse mit statischer Variable]{eine Klasse mit statischer Variable}
  	\label{fig:klassestatic}
  \end{figure}
 \cite{HelmutErlenkotter.}
@@ -109,6 +110,7 @@ Ein Vorteil der \ac{oop} ist, dass Klassen von anderen Klassen Attribute und Met
 	\caption[Vererbung]{Vererbung}
 	\label{fig:vererbung}
 \end{figure}
+\newpage
 In Listing \ref{vererbungc++} ist die Header Datei der Klasse2 dargestellt. Das  \glqq public\grqq{} vor Klasse2 gibt an, wie von dieser Klasse geerbt wird. Die Methoden und Attribute der Elternklasse werden hier nicht angegeben, da diese in der Header Datei der Elternklasse deklariert und in der Source Datei implementiert werden.
 \begin{lstlisting}[caption =Vererbung in C++,label=vererbungc++]
 #include <iostream>
@@ -317,10 +319,10 @@ Fähigkeit, andere Entity's mit Munition oder Treibstoff zu versorgen. Ausführl
 \caption[Variable Parameter record ]{Variable Paramete record\cite{SISOStandardsActivityCommitteeoftheIEEEComputerSociety.}}
 \label{variable}
 \end{table}
-Im Variable Parameter record werden die Zusatzteile beschrieben, die an dem \ac{espdu} verbaut sind. Dazu können Waffenanlagen und Sensoranlagen gehören. In Tabelle \ref{variableex} ist ein Turm mit Kanone als  Variable Parameter record in \ac{dis} dargestellt. Da sich der Turm drehen und die Kanone sich anheben können soll, werden vier Parameter benötigt, die die Bewegung beschreiben. Dabei gibt es einen Parameter Record, der die aktuelle Lage beschreibt. In dem unten gezeigtem Beispiel gibt es einen  Record für die horizontale Richtung und einen für die vertikale Richtung , also die Höhe, in der die Kanone zeigt. Die anderen beiden Records sind für die Änderungsraten, in der sich der dazugehörige Wert ändert. Diese Zusammensetzung der Parameter Records ist jedoch nicht fest vorgeschrieben und kann variiert werden. Diese Variation hat jedoch zur Folge, dass bestimmte Bewegungen nicht simuliert werden können. Zum Beispiel kann das Feld \glqq Primary Gun Elevation Rate\grqq{}  vernachlässigt werden, wenn sich zum einen die Höhe der Kanone sehr schnell ändert oder weil sich die Kanone überhaupt nicht bewegt und somit auch keine Änderungsrate existiert.  
+Im Variable Parameter record werden die Zusatzteile beschrieben, die an dem \ac{espdu} verbaut sind. Dazu können Waffenanlagen und Sensoranlagen gehören. In Tabelle \ref{variableex} ist ein Turm mit Kanone als  Variable Parameter record in \ac{dis} dargestellt. Da sich der Turm drehen und die Kanone sich anheben können soll, werden vier Parameter benötigt, die die Bewegung beschreiben. Dabei gibt es einen Parameter Record, der die aktuelle Lage beschreibt. In dem unten gezeigtem Beispiel gibt es einen  Record für die horizontale Richtung und einen für die vertikale Richtung , also die Höhe, in der die Kanone zeigt. Die anderen beiden Records sind für die Änderungsraten, in der sich der dazugehörige Wert ändert. Diese Zusammensetzung der Parameter Records ist jedoch nicht fest vorgeschrieben und kann variiert werden. Diese Variation hat jedoch zur Folge, dass bestimmte Bewegungen nicht simuliert werden können. Zum Beispiel kann das Feld \glqq Primary Gun Elevation Rate\grqq{}  vernachlässigt werden, wenn sich zum einen die Höhe der Kanone sehr schnell ändert oder weil sich die Kanone überhaupt nicht bewegt und somit auch keine Änderungsrate existiert.  \\
 \cite{SISOStandardsActivityCommitteeoftheIEEEComputerSociety.}
 \cite{Shanks.}  
-
+\cite{SISOStandardsActivityCommitteeoftheIEEEComputerSociety.6November2015}
 \begin{table}[H]
 	%	\centering
 	\resizebox{\linewidth}{!}{
@@ -676,7 +678,8 @@ if (EntityIDisSet == false) {
 In Listing \ref{id} ist die Implementierung der oben beschriebene Vergabe gezeigt.
 \\
 Die vierte und letzte Funktion ist die Funktion, mit der man das Erstellen und den Aufruf der anderen beschrieben Funktionen anstößt. Außerdem erstellt sie die \ac{dis} Vectoren, welche die Geschwindigkeit und die Orientierung beinhalten und übergibt diese an die Funktion \glqq makeStdDISPDU(DIS::Vector3Float velo,DIS::Orientation orie)\grqq{}. 
-Die Funktionen, die zur Erstellung der \ac{espdu} benötigt werden, sind, mit Ausnahme der \glqq makeStdDISPDU(DIS::Vector3Float velo,DIS::Orientation orie)\grqq{} und der \glqq DIS\_EntityType\_Variables getDISEntityType()\grqq{} Funktion, in der Klasse \glqq drvien \grqq{} implementiert. \\
+Die Funktionen, die zur Erstellung der \ac{espdu} benötigt werden, sind, mit Ausnahme der \glqq makeStdDISPDU(DIS::Vector3Float velo,DIS::Orientation orie)\grqq{} und der \glqq DIS\_EntityType
+\_Variables getDISEntityType()\grqq{} Funktion, in der Klasse \glqq drvien \grqq{} implementiert. \\
 Die \ac{espdu} kann mithilfe der Methode \glqq sendToNetwork(char DST[15]) \grqq{} an andere Teilnehmer gesendet werden. Als Input erhält die Methode die IP Adresse, an die gesendet werden soll. Die Daten werden mithilfe des \ac{udp} versendet.\\
 Die letzte Mehtode, die erklärt wird, kann unter anderem das Fortbewegen der \ac{espdu} ermöglichen. 
 Die Methode \glqq updateObject(double dt) \grqq{} erhält als Input eine Zeit in Sekunden, mit deren Hilfe die zurückgelegte Entfernung berechnet wird. 
@@ -750,32 +753,74 @@ In Zeile 12 ist die Erstellung eines Kriegsschiffes der F124 Klasse zusehen. Als
 Das in Listing \ref{main} erstellte Objekt der Klasse \glqq warShip\grqq{} kann in der aktuellen Version der Klassenhierarchie durch ein Objekt der Klasse \glqq military\grqq{}, also durch ein militärisches Landfahrzeug ersetzt werden. Allgemein lässt sich sagen, dass nach der Implementierung der Konstruktoren und der Ergänzung der Datenbank der Klasse \glqq DIS\_enum\grqq{}, sich jedes beliebige Objekt erstellen, übersetzen und senden lassen kann.  
 
 \section{Offene Probleme}\label{prob}
-Wie in den vorhergehenden Abschnitten bereits angeschnitten, ist eines der offenen Probleme die Erweiterung der Datenbanken und Konstruktoren, die die Erstellung weiterer Objekte der verschiedenen Klassen ermöglichen. In der aktuellen Version wurden nur wenige Einheiten in der Datenbank aufgenommen , da lediglich das Grundgerüst geschaffen werden sollte und es keinen konkreten Bedarf gab. \\
+Wie in den vorhergehenden Abschnitten bereits angeschnitten, ist eines der offenen Probleme die Erweiterung der Datenbanken und Konstruktoren, die die Erstellung weiterer Objekte der verschiedenen Klassen ermöglichen. In der aktuellen Version wurden nur wenige Einheiten in der Datenbank aufgenommen, da lediglich das Grundgerüst geschaffen werden sollte und es keinen konkreten Bedarf gab. \\
 Ein weiteres offenes Problem ist die Implementierung der Methoden, die die Position eines Objektes überprüfen und gegebenenfalls für ungültig erklären oder diese korrigieren.  Dies ist nötig, da verhindert werden muss, dass Schiffe eine Position haben, deren Koordinaten eine Höhe besitzt, welche nicht zu einem Schiff passt. Ein weiteres Beispiel ist das ein Landfahrzeug  keine Position haben darf, die auf eine Position auf dem Wasser oder unter dem Wasser hinweist. Dabei muss jedoch auf die Vorgabe der Simulation geachtet werden, da Landfahrzeuge prinzipiell unter Wasser sein können, jedoch diese Position ungewöhnlich für ein Landfahrzeug ist.\\
-Ein weiteres Problem ist das Implementieren einer Methode, die das Abfeuern einer Waffe simuliert. Das Abfeuern muss anschließend als \ac{pdu} an die Simulationsteilnehmer gesendet werden. Die Methode, die zum Beispiel das Feuern übersetzt, kann neu implementiert werden oder es kann die Methode der Klasse \glqq DIS\_enum\grqq{} erweitert werden. Neben dem Abfeuern einer Waffe wird dann auch die Simulation des Umsetzens, beziehungsweise der Einschlag der Munition benötigt. Hierfür wird ebenfalls die entsprechende  \ac{pdu} benötigt.\\
-Wie beschrieben, sollen mithilfe der Klassenhierarchie, Objekte simuliert werden, die sich nicht eigenständig bewegen können. Hierfür müssen gegebenenfalls weitere Klassen hinzugefügt werden oder bestehende angepasst werden. Diese Möglichkeit wurde noch nicht implementiert, da Wert auf die Implementierung der Klassen gelegt wurde, die Kindklassen der Klasse  \glqq driven\grqq{} sind. \\
+Ein anderes Problem ist das Implementieren einer Methode, die das Abfeuern einer Waffe simuliert. Das Abfeuern muss anschließend als \ac{pdu} an die Simulationsteilnehmer gesendet werden. Die Methode, die zum Beispiel das Feuern übersetzt, kann neu implementiert werden oder es kann die Methode der Klasse \glqq DIS\_enum\grqq{} erweitert werden. Neben dem Abfeuern einer Waffe wird dann auch die Simulation des Umsetzens beziehungsweise der Einschlag der Munition benötigt. Hierfür wird ebenfalls die entsprechende  \ac{pdu} benötigt.\\
+Wie beschrieben, sollen mithilfe der Klassenhierarchie Objekte simuliert werden, die sich nicht eigenständig bewegen können. Hierfür müssen gegebenenfalls weitere Klassen hinzugefügt werden oder bestehende angepasst werden. Diese Möglichkeit wurde noch nicht implementiert, da Wert auf die Implementierung der Klassen gelegt wurde, die Kindklassen der Klasse  \glqq driven\grqq{} sind. \\
 Ein weitere sinnvolle Erweiterung wäre beispielsweise die Implementierung von Methoden, die ein Objekt festgelegte Kurse abfahren oder fliegen lässt. Dabei muss überprüft werden, dass die eingegebenen Kurse zu den Objekten und deren Einsatzgebieten passen. 
 \chapter{Fazit}
 In dieser Masterarbeit wurden die Grundsätze der \acl{oop} und einige ausgewählte Besonderheiten der Programmiersprache C++ erklärt. Des Weiteren wurde der Inhalt einer \ac{espdu} erklärt. 
 Außer den genannten Grundlagen, wurden die gefundenen Lösungsansätze erklärt und verglichen, die als Grundlage der Klassenhierarchie dienten. Im Anschluss dazu wurde die Implementierung wichtiger Methoden anhand des Quellcodes erklärt. Abschließend wurden die offenen Probleme genannt. \\
 Die erstellte Klassenhierarchie bietet eine gute Grundlage für die Erstellung von Objekten. Um ein Objekt schlussendlich zu simulieren, fehlen jedoch noch einige wichtige Methoden. Für die Übersetzung eines Objektes in den \ac{dis} Standard  wurden Methoden erstellt mit denen man derzeit ausgewählte Objekte bestimmter Typen übersetzen kann. Eine Erweiterung dieser möglichen Typen ist relativ einfach zu realisieren. \\
-Abschließend kann gesagt werden, dass die Klassenhierarchie, die nötigen Grundlagen für Erweiterungen bietet. Sie ist von dem \ac{dis} Standard losgelöst bietet jedoch Methoden, die es ermöglichen mit anderen Simulationen mithilfe des \ac{dis} Standards zu kommunizieren. Andere Standards können ebenfalls bereitgestellt werden. 
+Abschließend kann gesagt werden, dass die Klassenhierarchie die nötigen Grundlagen für Erweiterungen bietet. Sie ist von dem \ac{dis} Standard losgelöst, bietet jedoch Methoden, die es ermöglichen mit anderen Simulationen mithilfe des \ac{dis} Standards zu kommunizieren. Andere Standards können ebenfalls bereitgestellt werden. 
 
 
 \chapter{Anhang}
 %\begin{figure}[H]
-\begin{sidewaysfigure}[!h]
-	\centering
-	\includegraphics[height = 0.75 \textheight,width =\textwidth]{bilder/pdfvorlagen/ansatz3}
+
+
+\vspace{1cm}
+
+
+%\begin{center}
+
+%\begin{sidewaysfigure}[!h]
+ 
+	%\begin{minipage}{\textwidth}
+	\begin{figure}[h]
+
+	\rotatebox{90}{%
+		\centering
+		\parbox{\textwidth}{%
+%\begin{minipage}{0.75\textheight}
+		\centering
+	\includegraphics[height = 0.72 \textheight,width =1.1\textwidth]{bilder/pdfvorlagen/ansatz3}
+
 	\caption[Ansatz 3]{Ansatz 3}
+	
+
 	\label{ansatz3}
-\end{sidewaysfigure}
+  % \end{minipage}
+%\end{minipage}
+}
+}
+\end{figure}
+%\end{center}
+
+
+%\end{sidewaysfigure}
 
 %\end{figure}
 
-\begin{sidewaysfigure}[!h]
-	\centering
-	\includegraphics[height = 0.75\textheight,width =\textwidth]{bilder/pdfvorlagen/equip}
-	\caption[Ausrüstung]{Ausrüstung}
-	\label{ausrüstung}
-\end{sidewaysfigure}
+\begin{figure}[h]
+	
+	\rotatebox{90}{%
+				\centering
+		\parbox{1.5\textwidth}{%
+			%\begin{minipage}{0.75\textheight}
+			\centering
+			\includegraphics[height = 0.72\textheight,width =1.2\textwidth]{bilder/pdfvorlagen/equip}
+			\caption[Ausrüstung]{Ausrüstung}
+			\label{ausrüstung}
+			% \end{minipage}
+			%\end{minipage}
+		}
+	}
+\end{figure}
+
+%\begin{sidewaysfigure}[!h]
+%	\centering
+%	\includegraphics[height = 0.75\textheight,width =\textwidth]{bilder/pdfvorlagen/equip}
+%	\caption[Ausrüstung]{Ausrüstung}
+%	\label{ausrüstung}
+%\end{sidewaysfigure}
