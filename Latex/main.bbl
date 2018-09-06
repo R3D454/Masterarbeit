@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{Wikipedia.}
+Distributed interactive simulation.
+\newblock \url{https://de.wikipedia.org/w/index.php?oldid=175148570}.
+
 \bibitem{BenjaminBuch.}
 {Benjamin Buch}.
 \newblock C++ programmierung.
@@ -23,6 +27,21 @@ Peter Krau{\ss}.
 \newblock
   \url{https://www.ldv.ei.tum.de/fileadmin/w00bfa/www/Vorlesungen/cpp/CPP-Skript.pdf}.
 \newblock [Online, Stand 09. August 2018].
+
+\bibitem{LucienZalcman.}
+{Lucien Zalcman}.
+\newblock What distributed interactive simulation (dis) protocol data units
+  (pdu) should my australian defence force simulator have?
+\newblock
+  \url{https://www.researchgate.net/profile/Lucien_Zalcman/publication/27254323_What_Distributed_Interactive_Simulation_DIS_Protocol_Data_Units_PDU_should_My_Australian_Defence_Force_Simulator_have/links/58d9845ca6fdccca1c4bff5d/What-Distributed-Interactive-Simulation-DIS-Protocol-Data-Units-PDU-should-My-Australian-Defence-Force-Simulator-have.pdf}.
+\newblock [Online, Stand 06. August 2018].
+
+\bibitem{MarkMcCall.}
+{Mark McCall}.
+\newblock Distributed interactive simulation (dis) 101.
+\newblock
+  \url{https://www.sisostds.org/DigitalLibrary.aspx?Command=Core_Download&EntryId=36474}.
+\newblock [Online, Stand 06. August 2018].
 
 \bibitem{Prof.Dr.AlfredIrber.}
 {Prof. Dr. Alfred Irber}.

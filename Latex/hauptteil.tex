@@ -184,14 +184,14 @@ Um nach dem Umwandeln eines Objektes auch auf die dazugehörige Methode zugreife
 namespace Beispiel{
 class Klasse2 {
 public:
-	void setName(std::string name);
-	std::string getName();
-	virtual void printName();
+void setName(std::string name);
+std::string getName();
+virtual void printName();
 private:
-	std::string Name;
+std::string Name;
 };
 }
-\end{lstlisting}
+	\end{lstlisting}
 In Listing  \ref{parent} ist die Header Datei der Elternklasse zu sehen. Diese verfügt über die virtuelle Methode \glqq virtual void printName()\grqq{}. Das 
 \glqq virtuel\grqq{} vor dem Funktionsaufruf sorgt dafür, dass diese Methode in allen Kindklassen implementiert werden muss. In der Kindklasse tauchte diese Mehtode als ganz normale Methode auf, dabei muss sie den gleichen Namen wie die virtuelle Methode aus der Elternklasse haben.\\
 In Listing \ref{virtuel} wird gezeigt, wie man ein Objekt der Kindklasse mithilfe eines Pointers in ein Objekt der Elternklasse umwandelt. Dabei wird in Zeile 5  zunächst ein Pointer erzeugt, der auf ein Objekt der Klasse2 zeigt. Diesem Pointer wird anschließend in Zeile 7 die Speicheradresse des Objektes der Klasse1 übergeben. Der Klasse1 wird nun mittels Funktionsaufruf der Name  \glqq hallo welt\grqq{} zugeordnet. Im Anschluss wird durch die Ausgabe überprüft, ob der Name dem Objekt zugeordnet wurde. Dies ist in Zeile 9 zu sehen. In Zeile 10 ist zu sehen, wie mit Hilfe des Zuweisungsoperators \glqq ->\grqq{} die Fuknktion \glqq printName()\grqq{}, der Elternfunktion, aufgerufen wird. Da es kein Objekt der Elternklasse gibt, könnte man jetzt meinen, dass dieser Aufruf einen Fehler erzeugen würde. Aufgrund der aufgerufenen virtuelle Methode, wird nun nicht die Mehtode der Elternklasse ausgeführt. Da das Objekt, auf das der Pointer zeigt, ein Objekt der Kindklasse ist, wird nun entschieden, dass es die Implementation aus der Kindklasse verwendet. Diese Entscheidung erfolgt automatisch während der Laufzeit. \\
@@ -223,7 +223,7 @@ Die Polymorphie beschreibt also, wie man mit Objekten verwandter Klassen umgehen
 \cite{Krau.}
 
 \section{\acl{dis}}
-\acf{dis} steht für einen Standard zur Steuerung und Überwachung  von Simulationen, der 1993 im \ac{ieee} 1278 definiert wurde. Er wird für Simulationen im militärische und zivilen Umfeld genutzt und ermöglicht das Erstellen und das Vernetzten von Simulationen sowie das Erstellen von simulierten Lagebildern. Dabei können die einzelnen Simulationen unterschiedliche Sprachen sprechen. Genauere Informationen über den Aufbau und die Inhalte von \ac{dis} können in der Studienarbeit \glqq Beurteilung der Open-DIS C++ Library zur Simulation von militärischen Szenarien\grqq{} und im \ac{dis} Standard nachgelesen werden. Die verwendete Library ist wie in der aufgeführten Studienarbeit die  \glqq Open-DIS\grqq{} Library. Da im Rahmen dieser Masterarbeit ausschließlich mit der \acf{espdu} gearbeitet wurde, wird diese im kommenden Abschnitt vertieft erklärt.\\
+\acf{dis} steht für einen Standard zur Steuerung und Überwachung  von Simulationen, der 1993 im \ac{ieee} 1278 definiert wurde. Er wird für Simulationen im militärische und zivilen Umfeld genutzt und ermöglicht das Erstellen und das Vernetzten von Simulationen sowie das Erstellen von simulierten Lagebildern. Dabei können die einzelnen Simulationen unterschiedliche Sprachen sprechen. Genauere Informationen über den Aufbau und die Inhalte von \ac{dis} können in der Studienarbeit \glqq Beurteilung der Open-DIS C++ Library zur Simulation von militärischen Szenarien\grqq{} und im \ac{dis} Standard nachgelesen werden. Die verwendete Library ist wie in der aufgeführten Studienarbeit die  \glqq Open-DIS\grqq{} Library. Da im Rahmen dieser Masterarbeit ausschließlich mit der \acf{espdu} gearbeitet wurde, wird diese im kommenden Abschnitt vertieft erklärt. \\
 Die \ac{espdu} ist eines der Grundelemente von \ac{dis}. Mit ihrer Hilfe werden Entitäten dargestellt, welche für bestimmte Objekte wie Panzer, Schiffe oder Fahrzeuge stehen. Die \ac{espdu} stellt eine Klasse dar, die folgende Attribute besitzt:
 \begin{itemize}
 	\singlespacing
@@ -323,6 +323,7 @@ Im Variable Parameter record werden die Zusatzteile beschrieben, die an dem \ac{
 \cite{SISOStandardsActivityCommitteeoftheIEEEComputerSociety.}
 \cite{Shanks.}  
 \cite{SISOStandardsActivityCommitteeoftheIEEEComputerSociety.6November2015}
+\cite{MarkMcCall.} \cite{Wikipedia.}\cite{LucienZalcman.}
 \begin{table}[H]
 	%	\centering
 	\resizebox{\linewidth}{!}{
@@ -440,7 +441,7 @@ if (Type== "F124") {
   driven::setCategory(Category);
 }}
 \end{lstlisting}
-Im Listing \ref{warshipclass} ist der Konstruktor der Klasse \glqq warShip\grqq{} dargestellt. Hier ist zu sehen, dass für das Erstellen der Klasse nur die Attribute \glqq Name\grqq{}, \glqq Type\grqq{} und \glqq Country\grqq{} dem Konstruktor übergeben werden. Neben den genannten Attributen werden noch weitere benötigt, die das Objekt noch genauer spezifizieren.
+Im Listing \ref{warshipclass} ist der Konstruktor der Klasse \glqq warShip\grqq{} dargestellt. Hier ist zu sehen, dass für das Erstellen der Klasse nur die Attribute \glqq Name\grqq{}, \glqq Type\grqq{} und \glqq Country\grqq{} dem Konstruktor übergeben werden. Neben den genannten Attributen werden noch Weitere benötigt, die das Objekt noch genauer spezifizieren.
 Die weiteren Attribute sind  \glqq Category\grqq{}, \glqq SubCategory\grqq{}, \glqq Kind\grqq{} und  \glqq Domain\grqq{}. Diese weiteren Attribute sind jedoch nur für die korrekte Erstellung der \ac{espdu} notwendig.
 Die Attribute   \glqq Category\grqq{} und \glqq SubCategory\grqq{} sind \ac{dis} spezifisch und sollten möglichst dem Inhalt der Enumeration entsprechen, da sonst die Übersetzung nicht möglich ist. 
 Die hier gezeigt Implementierung ist jedoch nur zu Testzwecken. Eine andere Lösung wäre die Erstellung einer Datenbank beziehungsweise eines Containers, in dem die möglichen Werte für die Attribute gespeichert sind und das Anhand des  \glqq Type\grqq{}  Wertes entschieden wird, welche Werte die Attribute  \glqq Category\grqq{} und \glqq SubCategory\grqq{} erhalten. Die Konstruktoren der Klassen  \glqq warPlane\grqq{},\glqq civilPlane\grqq{}, \glqq military\grqq{}, \glqq civil\grqq{} und \glqq civilShip\grqq{} können auf die gleiche Weise implementiert werden, wobei das für die Klassen \glqq military\grqq{} und \glqq warPlane\grqq{} schon der Fall ist.\\
