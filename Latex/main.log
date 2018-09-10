@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.2)  6 SEP 2018 09:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.2)  10 SEP 2018 09:28
 entering extended mode
 **./main.tex
 (main.tex
@@ -1021,7 +1021,7 @@ bibgerm.sty: (n)german.sty 2.5b detected
 (main.glsdefs)
 \c@lstlisting=\count190
  (formales.tex
-<hsu_4c.pdf, id=83, 143.53625pt x 103.38625pt>
+<hsu_4c.pdf, id=91, 143.53625pt x 103.38625pt>
 File: hsu_4c.pdf Graphic file (type pdf)
 <use hsu_4c.pdf>
 Package pdftex.def Info: hsu_4c.pdf  used on input line 11.
@@ -1075,11 +1075,11 @@ Class scrreprt Warning: \float@listhead detected!
 \tf@lol=\write9
 \openout9 = `main.lol'.
 
- (acronyms.tex [3
+ [3
 
 ] [4
 
-]) (main.toc)
+] (main.toc)
 \tf@toc=\write10
 \openout10 = `main.toc'.
 
@@ -1137,20 +1137,12 @@ although it is yet undefined on input line 22.
 Package acronym Info: Label `acro:ide' newly defined as it shall be overridden
 although it is yet undefined on input line 22.
  [3]
-Package acronym Info: Label `acro:oop' newly defined as it shall be overridden
-although it is yet undefined on input line 27.
-
-Overfull \hbox (1.66203pt too wide) in paragraph at lines 27--29
-\T1/cmr/m/n/12 Wie oben ge-nannt, ist die Grun-di-dee hin-ter der [][][]objekto
-rientierte Pro-gram-mie-rung ([])[]
- []
-
-<bilder/pdfvorlagen/model.pdf, id=246, 145.343pt x 177.463pt>
+<bilder/pdfvorlagen/model.pdf, id=254, 145.343pt x 177.463pt>
 File: bilder/pdfvorlagen/model.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/model.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/model.pdf  used on input line 33.
 (pdftex.def)             Requested size: 145.34262pt x 177.46255pt.
-[4]
+ [4]
 Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
@@ -1165,26 +1157,29 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.47 	int 
-          getVariable2(); <./bilder/pdfvorlagen/model.pdf>] [6]
-<bilder/pdfvorlagen/model2.pdf, id=409, 158.19101pt x 215.204pt>
+l.48 	void 
+           setVariable2(int zahl); <./bilder/pdfvorlagen/model.pdf>] [6]
+<bilder/pdfvorlagen/model2.pdf, id=418, 158.19101pt x 215.204pt>
 File: bilder/pdfvorlagen/model2.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/model2.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/model2.pdf  used on input line 87.
 (pdftex.def)             Requested size: 189.82825pt x 258.24348pt.
-<bilder/pdfvorlagen/model3.pdf, id=415, 175.857pt x 214.401pt>
+<bilder/pdfvorlagen/model3.pdf, id=424, 175.857pt x 214.401pt>
 File: bilder/pdfvorlagen/model3.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/model3.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/model3.pdf  used on input line 97.
 (pdftex.def)             Requested size: 211.02734pt x 257.27989pt.
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
-}) has been already used, duplicate ignored
+
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.100  \end{figure}
                     <./bilder/pdfvorlagen/model2.pdf>]
-<bilder/pdfvorlagen/tes.pdf, id=556, 177.463pt x 370.18298pt>
+Package acronym Info: Label `acro:oop' newly defined as it shall be overridden
+although it is yet undefined on input line 105.
+<bilder/pdfvorlagen/tes.pdf, id=564, 177.463pt x 370.18298pt>
 File: bilder/pdfvorlagen/tes.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/tes.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/tes.pdf  used on input line 109.
@@ -1233,7 +1228,7 @@ l.304 D
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.322 I
-       m Variable Parameter record werden die Zusatzteile beschrieben, die a...
+       m \glqq Variable Parameter record\grqq{} werden die Zusatzteile besch...
 ] [18pdfTeX warning (ext4): destination with the same identifier (name{table.2.
 5}) has been already used, duplicate ignored
 
@@ -1248,7 +1243,7 @@ ble.2.6}) has been already used, duplicate ignored
 l.359 \chapter
               {Entwurf der Klassenhierarchie }]
 chapter 3.
-<bilder/pdfvorlagen/ansatz2.pdf, id=1085, 434.62375pt x 212.795pt>
+<bilder/pdfvorlagen/ansatz2.pdf, id=1094, 434.62375pt x 212.795pt>
 File: bilder/pdfvorlagen/ansatz2.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/ansatz2.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/ansatz2.pdf  used on input line 372
@@ -1257,7 +1252,7 @@ Package pdftex.def Info: bilder/pdfvorlagen/ansatz2.pdf  used on input line 372
 [20
 
 ]
-<bilder/pdfvorlagen/ansatz1.pdf, id=1098, 332.24126pt x 345.29pt>
+<bilder/pdfvorlagen/ansatz1.pdf, id=1107, 332.24126pt x 345.29pt>
 File: bilder/pdfvorlagen/ansatz1.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/ansatz1.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/ansatz1.pdf  used on input line 380
@@ -1307,23 +1302,23 @@ chapter 4.
 
 ]
 chapter 5.
-<bilder/pdfvorlagen/ansatz3.pdf, id=1567, 1145.27875pt x 465.74pt>
+<bilder/pdfvorlagen/ansatz3.pdf, id=1576, 1145.27875pt x 465.74pt>
 File: bilder/pdfvorlagen/ansatz3.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/ansatz3.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/ansatz3.pdf  used on input line 797
 .
-(pdftex.def)             Requested size: 492.94958pt x 457.58046pt.
+(pdftex.def)             Requested size: 506.38826pt x 470.28708pt.
 
-Overfull \hbox (44.81863pt too wide) in paragraph at lines 797--797
+Overfull \hbox (58.25731pt too wide) in paragraph at lines 797--797
  [][] 
  []
 
 
-Overfull \hbox (38.29955pt too wide) in paragraph at lines 783--798
+Overfull \hbox (51.00616pt too wide) in paragraph at lines 783--798
 [][] 
  []
 
-<bilder/pdfvorlagen/equip.pdf, id=1568, 1145.27875pt x 604.2575pt>
+<bilder/pdfvorlagen/equip.pdf, id=1577, 1145.27875pt x 604.2575pt>
 File: bilder/pdfvorlagen/equip.pdf Graphic file (type pdf)
 <use bilder/pdfvorlagen/equip.pdf>
 Package pdftex.def Info: bilder/pdfvorlagen/equip.pdf  used on input line 819.
@@ -1445,14 +1440,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7FD249D79F2ADE38EC0C204B69FAD9A6;1265.
+(rerunfilecheck)             Checksum: 66F55C738755958E8895FA3C5A7829B0;1373.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
  ) 
 Here is how much of TeX's memory you used:
- 20487 strings out of 492973
- 332100 string characters out of 3139481
+ 20485 strings out of 492973
+ 331998 string characters out of 3139481
  608982 words of memory out of 3000000
- 23489 multiletter control sequences out of 15000+200000
+ 23490 multiletter control sequences out of 15000+200000
  16135 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,12n,97p,9085b,2019s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1469,9 +1464,9 @@ pk> <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ecsx1728.pk> <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
 \ec\dpi600\ecbx1200.pk> <C:\Users\Henry\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
 r\jknappen\ec\dpi600\ecbx1440.pk>
-Output written on main.pdf (52 pages, 817102 bytes).
+Output written on main.pdf (52 pages, 819102 bytes).
 PDF statistics:
- 2290 PDF objects out of 2487 (max. 8388607)
+ 2301 PDF objects out of 2487 (max. 8388607)
  494 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 222 words of extra memory for PDF output out of 10000 (max. 10000000)
 
